@@ -72,13 +72,18 @@
     border: none;
     height: 120px;
     width: 120px;
+    padding: 30px;
     border-radius: 50%;
 }
 
 .sound-picker button:nth-child(1) {
-background: #497281;
+background: #4972a1;
 }
 
 .sound-picker button:nth-child(2) {
     background: #a14f49;
+}
+
+.sound-picker button img {
+    height: 100%;
 }
