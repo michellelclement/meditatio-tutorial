@@ -46,6 +46,8 @@ song.ontimeupdate = () => {
     //Animate the circle
     let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
     outline.style.strokeDashoffset = progress;
+    //Animate the text
+    timeDisplay.textContent = `${minutes}:${seconds}`
     }
 };
 
