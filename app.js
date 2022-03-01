@@ -12,6 +12,11 @@ const app = () => {
     const outlineLength = outline.getTotalLength();
     //Duration
     let fakeDuration = 600;
-}
+
+    //Animate outline 
+        outline.style.strokeDasharray = outlineLength;
+        outline.style.strokeDashoffset = outlineLength;
+
+};
 
 app();
